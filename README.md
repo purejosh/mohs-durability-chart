@@ -80,3 +80,26 @@ Below are graphical representations of the durability mappings for tools and arm
 
 *Figure 2: Armor durability scaling based on Mohs hardness.*
 
+## Fun Facts and Insights
+
+### Mohs Hardness
+- The Mohs hardness values are derived using Vanilla values as anchor points and are scaled against the armor durability multipliers.
+- Since real-world materials can exhibit a wide range of Mohs hardness values, whereas the multiplier must be an integer, the Mohs value emerged as the most logical variable for scaling.
+- **Calculation**: Mohs Hardness = `((Multiplier + 3) / 3.6)`
+
+### Tool Durability
+- Tool durability is calculated using the Mohs hardness value with an exponential formula, allowing for polynomial scaling:
+- **Calculation**: Durability = `13.18 × e^(0.425 × Mohs)`
+
+### Armor Durability
+- Armor durability is calculated as **Multiplier × 16** for the chestplate. Other armor pieces scale based on different constants:
+  - **Head**: Multiplier × 11
+  - **Legs**: Multiplier × 15
+  - **Feet**: Multiplier × 13
+- The chestplate was chosen to represent durability because it has the highest value, and 16 is just a good number.
+
+### Multiplier
+- The multiplier directly determines the durability of armors and is explicitly defined in Minecraft's hard-coded Vanilla system.
+- Its interpretation is fixed, aligning with the mechanics of the game's core design.
+
+---
