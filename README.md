@@ -47,14 +47,14 @@ This structured methodology combines mathematical precision with real-world mate
 | 15         | 5.00          | 250             | 240              | Iron           | Vanilla    |
 | 16         | 5.28          | 286             | 256              |                |            |
 | 17         | 5.56          | 325             | 272              |                |            |
-| 18         | 5.83          | 368             | 288              |                |            |
+| 18         | 5.83          | 368             | 288              | Amethyst       | Pure Ameth |
 | 19         | 6.11          | 415             | 304              | Moonstone      | Pure Ores  |
 | 20         | 6.39          | 466             | 320              | Fire Opal      | Pure Ores  |
 | 21         | 6.67          | 522             | 336              |                |            |
 | 22         | 6.94          | 582             | 352              | Jadeite        | Pure Ores  |
 | 23         | 7.22          | 647             | 368              |                |            |
 | 24         | 7.50          | 716             | 384              | Ametrine       | Pure Ores  |
-| 25         | 7.78          | 792             | 400              |                |            |
+| 25         | 7.78          | 792             | 400              | Pure Amethyst  | Pure Ameth |
 | 26         | 8.06          | 873             | 416              | Chrysoberyl    | Pure Ores  |
 | 27         | 8.33          | 957             | 432              |                |            |
 | 28         | 8.61          | 1047            | 448              |                |            |
